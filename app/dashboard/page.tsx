@@ -87,9 +87,12 @@ export default function Dashboard() {
 
       if (!response.ok) throw new Error("Failed to update todo");
 
+      const updatedTodo = await response.json();
       setTodos(prevTodos => prevTodos.map(todo => 
         todo._id === id ? { ...todo, completed: !completed } : todo
       ));
+      
+      toast.success(completed ? "Task uncompleted" : "Task completed");
     } catch (error) {
       toast.error("Failed to update todo");
     }
@@ -234,7 +237,7 @@ export default function Dashboard() {
                   <button
                     onClick={() => toggleTodo(todo._id, todo.completed)}
                     className="focus:outline-none"
-                    aria-label="Toggle completion"
+                    aria-label={todo.completed ? "Mark as incomplete" : "Mark as complete"}
                   >
                     {todo.completed ? (
                       <CheckCircle2 className="h-5 w-5 text-green-500" />
@@ -247,13 +250,7 @@ export default function Dashboard() {
                       {todo.title}
                     </p>
                     <p className="text-xs text-gray-500">
-                      Created {(() => {
-                        try {
-                          return format(new Date(todo.createdAt), 'MMM d, yyyy h:mm a')
-                        } catch (error) {
-                          return todo.createdAt
-                        }
-                      })()}
+                      Created {format(new Date(todo.createdAt), 'MMM d, yyyy h:mm a')}
                     </p>
                   </div>
                 </div>
