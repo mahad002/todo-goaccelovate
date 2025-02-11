@@ -34,6 +34,7 @@ export default function Dashboard() {
   const [newTodo, setNewTodo] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [filter, setFilter] = useState<"all" | "active" | "completed">("all");
+  const [todoToDelete, setTodoToDelete] = useState<string | null>(null);
 
   useEffect(() => {
     fetchTodos();
@@ -44,9 +45,10 @@ export default function Dashboard() {
       const response = await fetch("/api/todos");
       if (!response.ok) throw new Error("Failed to fetch todos");
       const data = await response.json();
-      setTodos(data);
+      setTodos(Array.isArray(data) ? data : []);
     } catch (error) {
       toast.error("Failed to load todos");
+      setTodos([]);
     }
   }
 
@@ -65,7 +67,7 @@ export default function Dashboard() {
       if (!response.ok) throw new Error("Failed to add todo");
 
       const todo = await response.json();
-      setTodos([todo, ...todos]);
+      setTodos(prevTodos => [todo, ...prevTodos]);
       setNewTodo("");
       toast.success("Todo added successfully");
     } catch (error) {
@@ -85,7 +87,7 @@ export default function Dashboard() {
 
       if (!response.ok) throw new Error("Failed to update todo");
 
-      setTodos(todos.map(todo => 
+      setTodos(prevTodos => prevTodos.map(todo => 
         todo._id === id ? { ...todo, completed: !completed } : todo
       ));
     } catch (error) {
@@ -93,18 +95,22 @@ export default function Dashboard() {
     }
   }
 
-  async function deleteTodo(id: string) {
+  async function handleDeleteConfirm() {
+    if (!todoToDelete) return;
+
     try {
-      const response = await fetch(`/api/todos/${id}`, {
+      const response = await fetch(`/api/todos/${todoToDelete}`, {
         method: "DELETE",
       });
 
       if (!response.ok) throw new Error("Failed to delete todo");
 
-      setTodos(todos.filter(todo => todo._id !== id));
+      setTodos(prevTodos => prevTodos.filter(todo => todo._id !== todoToDelete));
       toast.success("Todo deleted successfully");
     } catch (error) {
       toast.error("Failed to delete todo");
+    } finally {
+      setTodoToDelete(null);
     }
   }
 
@@ -255,7 +261,11 @@ export default function Dashboard() {
                   </Button>
                   <AlertDialog>
                     <AlertDialogTrigger asChild>
-                      <Button variant="destructive" size="icon">
+                      <Button 
+                        variant="destructive" 
+                        size="icon"
+                        onClick={() => setTodoToDelete(todo._id)}
+                      >
                         <Trash2 className="h-4 w-4" />
                       </Button>
                     </AlertDialogTrigger>
@@ -267,8 +277,10 @@ export default function Dashboard() {
                         </AlertDialogDescription>
                       </AlertDialogHeader>
                       <AlertDialogFooter>
-                        <AlertDialogCancel>Cancel</AlertDialogCancel>
-                        <AlertDialogAction onClick={() => deleteTodo(todo._id)}>
+                        <AlertDialogCancel onClick={() => setTodoToDelete(null)}>
+                          Cancel
+                        </AlertDialogCancel>
+                        <AlertDialogAction onClick={handleDeleteConfirm}>
                           Delete
                         </AlertDialogAction>
                       </AlertDialogFooter>
