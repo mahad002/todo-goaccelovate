@@ -1,0 +1,862 @@
+ at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:27451:7)
+        at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26560:12)
+        at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26466:5)
+        at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26434:7)
+        at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25738:74)
+        at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:266:34)
+        at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:239:14)
+        at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:533:21)
+        at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\browser\Window.js:520:19)
+        at listOnTimeout (node:internal/timers:569:17)
+        at processTimers (node:internal/timers:512:7) {
+      detail: TypeError: (0 , _format.default) is not a function
+          at C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\app\dashboard\page.tsx:250:38
+          at Array.map (<anonymous>)
+          at map (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\app\dashboard\page.tsx:231:26)
+          at renderWithHooks (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:16305:18)
+          at updateFunctionComponent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:19588:20)
+          at beginWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:21601:16)
+          at HTMLUnknownElement.callCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+          at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+          at innerInvokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:350:25)
+          at invokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+          at HTMLUnknownElementImpl._dispatch (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+          at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+          at HTMLUnknownElement.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+          at Object.invokeGuardedCallbackDev (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+          at invokeGuardedCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+          at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:27451:7)
+          at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26560:12)
+          at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26466:5)
+          at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26434:7)
+          at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25738:74)
+          at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:266:34)
+          at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:239:14)
+          at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:533:21)
+          at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\browser\Window.js:520:19)
+          at listOnTimeout (node:internal/timers:569:17)
+          at processTimers (node:internal/timers:512:7),
+      type: 'unhandled exception'
+    }
+
+      at VirtualConsole.<anonymous> (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at reportException (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at innerInvokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:353:9)
+      at invokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+      at HTMLUnknownElementImpl._dispatch (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+      at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:104:17)
+      at HTMLUnknownElement.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:241:34)
+      at Object.invokeGuardedCallbackDev (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+      at invokeGuardedCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+      at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:27451:7)
+      at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:25738:74)
+      at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:266:34)
+      at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:239:14)
+      at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:533:21)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  console.error
+    Error: Uncaught [TypeError: (0 , _format.default) is not a function]
+        at reportException (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+        at innerInvokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+        at invokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+        at HTMLUnknownElementImpl._dispatch (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+        at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+        at HTMLUnknownElement.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+        at Object.invokeGuardedCallbackDev (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+        at invokeGuardedCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+        at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:27451:7)
+        at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26560:12)
+        at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26466:5)
+        at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26434:7)
+        at recoverFromConcurrentError (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25850:20)
+        at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25750:22)
+        at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:266:34)
+        at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:239:14)
+        at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:533:21)
+        at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\browser\Window.js:520:19)
+        at listOnTimeout (node:internal/timers:569:17)
+        at processTimers (node:internal/timers:512:7) {
+      detail: TypeError: (0 , _format.default) is not a function
+          at C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\app\dashboard\page.tsx:250:38
+          at Array.map (<anonymous>)
+          at map (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\app\dashboard\page.tsx:231:26)
+          at renderWithHooks (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:16305:18)
+          at updateFunctionComponent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:19588:20)
+          at beginWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:21601:16)
+          at HTMLUnknownElement.callCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+          at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+          at innerInvokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:350:25)
+          at invokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+          at HTMLUnknownElementImpl._dispatch (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+          at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+          at HTMLUnknownElement.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+          at Object.invokeGuardedCallbackDev (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+          at invokeGuardedCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+          at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:27451:7)
+          at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26560:12)
+          at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26466:5)
+          at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26434:7)
+          at recoverFromConcurrentError (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25850:20)
+          at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25750:22)
+          at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:266:34)
+          at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:239:14)
+          at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:533:21)
+          at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\browser\Window.js:520:19)
+          at listOnTimeout (node:internal/timers:569:17)
+          at processTimers (node:internal/timers:512:7),
+      type: 'unhandled exception'
+    }
+
+      at VirtualConsole.<anonymous> (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at reportException (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at innerInvokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:353:9)
+      at invokeEventListeners (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+      at HTMLUnknownElementImpl._dispatch (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+      at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:104:17)
+      at HTMLUnknownElement.dispatchEvent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:241:34)
+      at Object.invokeGuardedCallbackDev (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+      at invokeGuardedCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+      at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:27451:7)
+      at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at recoverFromConcurrentError (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:25850:20)
+      at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:25750:22)
+      at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:266:34)
+      at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:239:14)
+      at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:533:21)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  console.error                                                                                                                          
+    The above error occurred in the <Dashboard> component:
+
+        at Dashboard (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\app\dashboard\page.tsx:33:37)
+
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+      at logCapturedError (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:18687:23)
+      at update.callback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:18720:5)
+      at callCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:13923:12)
+      at commitUpdateQueue (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:13944:9)
+      at commitLayoutEffectOnFiber (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:23391:13)
+      at commitLayoutMountEffects_complete (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:24688:9)
+      at commitLayoutEffects_begin (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:24674:7)
+      at commitLayoutEffects (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:24612:3)
+      at commitRootImpl (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26823:5)
+      at commitRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26682:5)
+      at finishConcurrentRender (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:25892:9)
+      at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:25809:7)
+      at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:266:34)
+      at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:239:14)
+      at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:533:21)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  console.error                                                                                                                          
+    Error: Uncaught [TypeError: (0 , _format.default) is not a function]                                                                 
+        at reportException (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+        at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\browser\Window.js:525:9)
+        at listOnTimeout (node:internal/timers:569:17)
+        at processTimers (node:internal/timers:512:7) {
+      detail: TypeError: (0 , _format.default) is not a function
+          at C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\app\dashboard\page.tsx:250:38
+          at Array.map (<anonymous>)
+          at map (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\app\dashboard\page.tsx:231:26)
+          at renderWithHooks (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:16305:18)
+          at updateFunctionComponent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:19588:20)
+          at beginWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:21601:16)
+          at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:27426:14)
+          at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26560:12)
+          at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26466:5)
+          at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:26434:7)
+          at recoverFromConcurrentError (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25850:20)
+          at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\react-dom\cjs\react-dom.development.js:25750:22)
+          at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:266:34)
+          at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:239:14)
+          at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\scheduler\cjs\scheduler.development.js:533:21)
+          at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project\node_modules\jsdom\lib\jsdom\browser\Window.js:520:19)
+          at listOnTimeout (node:internal/timers:569:17)
+          at processTimers (node:internal/timers:512:7),
+      type: 'unhandled exception'
+    }
+
+      at VirtualConsole.<anonymous> (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at reportException (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:525:9)
+
+ FAIL  __tests__/app.test.tsx (6.477 s)
+  Application Tests
+    Authentication                                                                                                                       
+      Registration                                                                                                                       
+        × registers a new user successfully (1217 ms)                                                                                    
+        √ handles registration validation errors (16 ms)                                                                                 
+      Sign In                                                                                                                            
+        × signs in user successfully (1041 ms)                                                                                           
+        × handles invalid credentials (1025 ms)                                                                                          
+    Dashboard                                                                                                                            
+      √ adds a new todo (44 ms)                                                                                                          
+      × toggles todo completion (1040 ms)                                                                                                
+      × deletes a todo (1018 ms)                                                                                                         
+                                                                                                                                         
+  ● Application Tests › Authentication › Registration › registers a new user successfully                                                
+                                                                                                                                         
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+    Expected: "/api/auth/register", {"body": "{\"username\":\"admin00\",\"email\":\"admin00@email.com\",\"password\":\"admin00\"}", "headers": {"Content-Type": "application/json"}, "method": "POST"}
+
+    Number of calls: 0
+
+    Ignored nodes: comments, script, style
+    <html>
+      <head />
+      <body>
+        <div>
+          <div
+            class="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-100 to-white dark:from-gray-900 dark:to-gray-800 p-4"
+          >
+            <div
+              class="w-full max-w-md"
+            >
+              <div>
+                <h2
+                  class="text-2xl text-center"
+                >
+                  Register
+                </h2>
+              </div>
+              <div>
+                <form>
+                  <form
+                    class="space-y-6"
+                  >
+                    <div>
+                      <label
+                        for="test-input"
+                      >
+                        Username
+                      </label>
+                      <input
+                        id="test-input"
+                        name=""
+                        placeholder="johndoe123"
+                        value=""
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="test-input"
+                      >
+                        Email
+                      </label>
+                      <input
+                        id="test-input"
+                        name=""
+                        placeholder="email@example.com"
+                        type="email"
+                        value=""
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="test-input"
+                      >
+                        Password
+                      </label>
+                      <input
+                        id="test-input"
+                        name=""
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                    <button
+                      class="w-full"
+                      type="submit"
+                    >
+                      Register
+                    </button>
+                    <p
+                      class="text-center text-sm text-gray-600 dark:text-gray-400"
+                    >
+                      Already have an account?
+
+                      <a
+                        class="text-indigo-600 hover:text-indigo-500 dark:text-indigo-400"
+                        href="/auth/signin"
+                      >
+                        Sign in
+                      </a>
+                    </p>
+                  </form>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+
+      129 |
+      130 |         await waitFor(() => {
+    > 131 |           expect(fetch).toHaveBeenCalledWith('/api/auth/register', {
+          |                         ^
+      132 |             method: 'POST',
+      133 |             headers: { 'Content-Type': 'application/json' },
+      134 |             body: JSON.stringify({
+
+      at toHaveBeenCalledWith (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/__tests__/app.test.tsx:131:25)
+      at runWithExpensiveErrorDiagnosticsDisabled (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/config.js:47:12)
+      at checkCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:124:77)
+      at checkRealTimersCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:118:16)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  ● Application Tests › Authentication › Sign In › signs in user successfully
+
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+    Expected: "/api/auth/login", {"body": "{\"email\":\"admin00@email.com\",\"password\":\"admin00\"}", "headers": {"Content-Type": "application/json"}, "method": "POST"}
+
+    Number of calls: 0
+
+    Ignored nodes: comments, script, style
+    <html>
+      <head />
+      <body>
+        <div>
+          <div
+            class="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-100 to-white dark:from-gray-900 dark:to-gray-800 p-4"
+          >
+            <div
+              class="w-full max-w-md"
+            >
+              <div>
+                <h2
+                  class="text-2xl text-center"
+                >
+                  Sign In
+                </h2>
+              </div>
+              <div>
+                <form>
+                  <form
+                    class="space-y-6"
+                  >
+                    <div>
+                      <label
+                        for="test-input"
+                      >
+                        Email
+                      </label>
+                      <input
+                        id="test-input"
+                        name=""
+                        placeholder="email@example.com"
+                        value=""
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="test-input"
+                      >
+                        Password
+                      </label>
+                      <input
+                        id="test-input"
+                        name=""
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                    <button
+                      class="w-full"
+                      type="submit"
+                    >
+                      Sign In
+                    </button>
+                    <p
+                      class="text-center text-sm text-gray-600 dark:text-gray-400"
+                    >
+                      Don't have an account?
+
+                      <a
+                        class="text-indigo-600 hover:text-indigo-500 dark:text-indigo-400"
+                        href="/auth/register"
+                      >
+                        Register
+                      </a>
+                    </p>
+                  </form>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+
+      184 |
+      185 |         await waitFor(() => {
+    > 186 |           expect(fetch).toHaveBeenCalledWith('/api/auth/login', {
+          |                         ^
+      187 |             method: 'POST',
+      188 |             headers: { 'Content-Type': 'application/json' },
+      189 |             body: JSON.stringify({
+
+      at toHaveBeenCalledWith (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/__tests__/app.test.tsx:186:25)
+      at runWithExpensiveErrorDiagnosticsDisabled (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/config.js:47:12)
+      at checkCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:124:77)
+      at checkRealTimersCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:118:16)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  ● Application Tests › Authentication › Sign In › handles invalid credentials
+
+    expect(jest.fn()).toHaveBeenCalled()
+
+    Expected number of calls: >= 1
+    Received number of calls:    0
+
+    Ignored nodes: comments, script, style
+    <html>
+      <head />
+      <body>
+        <div>
+          <div
+            class="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-100 to-white dark:from-gray-900 dark:to-gray-800 p-4"
+          >
+            <div
+              class="w-full max-w-md"
+            >
+              <div>
+                <h2
+                  class="text-2xl text-center"
+                >
+                  Sign In
+                </h2>
+              </div>
+              <div>
+                <form>
+                  <form
+                    class="space-y-6"
+                  >
+                    <div>
+                      <label
+                        for="test-input"
+                      >
+                        Email
+                      </label>
+                      <input
+                        id="test-input"
+                        name=""
+                        placeholder="email@example.com"
+                        value=""
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="test-input"
+                      >
+                        Password
+                      </label>
+                      <input
+                        id="test-input"
+                        name=""
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                    <button
+                      class="w-full"
+                      type="submit"
+                    >
+                      Sign In
+                    </button>
+                    <p
+                      class="text-center text-sm text-gray-600 dark:text-gray-400"
+                    >
+                      Don't have an account?
+
+                      <a
+                        class="text-indigo-600 hover:text-indigo-500 dark:text-indigo-400"
+                        href="/auth/register"
+                      >
+                        Register
+                      </a>
+                    </p>
+                  </form>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+
+      214 |
+      215 |         await waitFor(() => {
+    > 216 |           expect(fetch).toHaveBeenCalled();
+          |                         ^
+      217 |         });
+      218 |       });
+      219 |     });
+
+      at toHaveBeenCalled (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/__tests__/app.test.tsx:216:25)   
+      at runWithExpensiveErrorDiagnosticsDisabled (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/config.js:47:12)
+      at checkCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:124:77)
+      at checkRealTimersCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:118:16)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  ● Application Tests › Dashboard › toggles todo completion
+
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+    Expected: "/api/todos/1/toggle", {"body": "{\"completed\":true}", "headers": {"Content-Type": "application/json"}, "method": "PATCH"}
+    Received: "/api/todos"
+
+    Number of calls: 1
+
+    Ignored nodes: comments, script, style
+    <html>
+      <head />
+      <body>
+        <div>
+          <div
+            class="min-h-screen bg-gradient-to-br from-indigo-100 to-white dark:from-gray-900 dark:to-gray-800 p-4"
+          >
+            <div
+              class="max-w-4xl mx-auto"
+            >
+              <div
+                class="flex justify-between items-center mb-8"
+              >
+                <h1
+                  class="text-3xl font-bold"
+                >
+                  My Tasks
+                </h1>
+                <button
+                  data-variant="outline"
+                  type="button"
+                >
+                  <svg
+                    class="lucide lucide-log-out h-4 w-4 mr-2"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"
+                    />
+                    <polyline
+                      points="16 17 21 12 16 7"
+                    />
+                    <line
+                      x1="21"
+                      x2="9"
+                      y1="12"
+                      y2="12"
+                    />
+                  </svg>
+                  Logout
+                </button>
+              </div>
+              <div
+                class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8"
+              >
+                <div
+                  class="bg-white/50 backdrop-blur-sm"
+                >
+                  <div>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div>
+                        <p
+                          class="text-sm text-gray-500"
+                        >
+                          Total Tasks
+                        </p>
+                        <p
+                          class="text-2xl font-bold"
+                        >
+                          0
+                        </p>
+                      </div>
+                      <svg
+                        class="lucide lucide-clock h-8 w-8 text-indigo-500"
+                        fill="none"
+                        height="24"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="10"
+                        />
+                        <polyline
+                          points="12 6 12 12 16 14"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="bg-white/50 backdrop-blur-sm"
+                >
+                  <div>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div>
+                        <p
+                          class="text-sm text-gray-500"
+                        >
+                          Completed
+                        </p>
+                        <p
+                          class="text-2xl font-bold"
+                        >
+                          0
+                        </p>
+                      </div>
+                      <svg
+                        class="lucide lucide-circle-check h-8 w-8 text-green-500"
+                        fill="none"
+                        height="24"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="10"
+                        />
+                        <path
+                          d="m9 12 2 2 4-4"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="bg-white/50 backdrop-blur-sm"
+                >
+                  <div>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div>
+                        <p
+                          class="text-sm text-gray-500"
+                        >
+                          Active
+                        </p>
+                        <p
+                          class="text-2xl font-bold"
+                        >
+                          0
+                        </p>
+                      </div>
+                      <svg
+                        class="lucide lucide-circle h-8 w-8 text-blue-500"
+                        fill="none"
+                        height="24"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="10"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <form
+                class="mb-8"
+              >
+                <div
+                  class="flex gap-2"
+                >
+                  <input
+                    class="bg-white/50 backdrop-blur-sm"
+                    id="test-input"
+                    placeholder="Add a new task..."
+                    value=""
+                  />
+                  <button
+                    type="submit"
+                  >
+                    Add Task
+                  </button>
+                </div>
+              </form>
+              <div
+                class="flex gap-2 mb-4"
+              >
+                <button
+                  data-size="sm"
+                  data-variant="default"
+                  type="button"
+                >
+                  All
+                </button>
+                <button
+                  data-size="sm"
+                  data-variant="outline"
+                  type="button"
+                >
+                  Active
+                </button>
+                <button
+                  data-size="sm"
+                  data-variant="outline"
+                  type="button"
+                >
+                  Completed
+                </button>
+              </div>
+              <div
+                class="space-y-4"
+              >
+                <div
+                  class="bg-white/50 backdrop-blur-sm"
+                >
+                  <div>
+                    <p
+                      class="text-lg mb-2"
+                    >
+                      No tasks found
+                    </p>
+                    <p
+                      class="text-sm"
+                    >
+                      Start by adding a new task above
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+
+      307 |
+      308 |       await waitFor(() => {
+    > 309 |         expect(fetch).toHaveBeenCalledWith('/api/todos/1/toggle', {
+          |                       ^
+      310 |           method: 'PATCH',
+      311 |           headers: { 'Content-Type': 'application/json' },
+      312 |           body: JSON.stringify({ completed: true }),
+
+      at toHaveBeenCalledWith (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/__tests__/app.test.tsx:309:23)
+      at runWithExpensiveErrorDiagnosticsDisabled (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/config.js:47:12)
+      at checkCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:124:77)
+      at checkRealTimersCallback (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:118:16)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  ● Application Tests › Dashboard › deletes a todo
+
+    TypeError: (0 , _format.default) is not a function
+
+      at C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/app/dashboard/page.tsx:250:38
+          at Array.map (<anonymous>)
+      at map (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/app/dashboard/page.tsx:231:26)
+      at renderWithHooks (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:16305:18)
+      at updateFunctionComponent (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:19588:20)
+      at beginWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:21601:16)
+      at beginWork$1 (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:27426:14)
+      at performUnitOfWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at recoverFromConcurrentError (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:25850:20)
+      at performConcurrentWorkOnRoot (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/react-dom/cjs/react-dom.development.js:25750:22)
+      at workLoop (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:266:34)
+      at flushWork (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:239:14)
+      at performWorkUntilDeadline (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/scheduler/cjs/scheduler.development.js:533:21)
+      at Timeout.task [as _onTimeout] (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/jsdom/lib/jsdom/browser/Window.js:520:19)
+
+  ● Application Tests › Dashboard › deletes a todo
+
+    Unable to find role="button" and name `/delete/i`
+
+    Ignored nodes: comments, script, style
+    <body>
+      <div />
+    </body>
+
+      329 |
+      330 |       // Wait for todos to load and click delete
+    > 331 |       await waitFor(() => {
+          |                    ^
+      332 |         const deleteButtons = screen.getAllByRole('button', { name: /delete/i });
+      333 |         if (deleteButtons.length > 0) {
+      334 |           fireEvent.click(deleteButtons[0]);
+
+      at waitForWrapper (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/node_modules/@testing-library/dom/dist/wait-for.js:163:27)
+      at Object.<anonymous> (C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)../../../../../project/__tests__/app.test.tsx:331:20) 
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 2 passed, 7 total
+Snapshots:   0 total
+Time:        7.175 s
+Ran all test suites.
+PS C:\Users\mahad\Downloads\project-bolt-sb1-jwug4enq (1)\project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

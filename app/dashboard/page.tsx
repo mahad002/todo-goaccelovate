@@ -151,7 +151,6 @@ export default function Dashboard() {
           </Button>
         </div>
 
-        {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <Card className="bg-white/50 backdrop-blur-sm">
             <CardContent className="p-4">
@@ -235,6 +234,7 @@ export default function Dashboard() {
                   <button
                     onClick={() => toggleTodo(todo._id, todo.completed)}
                     className="focus:outline-none"
+                    aria-label="Toggle completion"
                   >
                     {todo.completed ? (
                       <CheckCircle2 className="h-5 w-5 text-green-500" />
@@ -247,7 +247,13 @@ export default function Dashboard() {
                       {todo.title}
                     </p>
                     <p className="text-xs text-gray-500">
-                      Created {format(new Date(todo.createdAt), 'MMM d, yyyy h:mm a')}
+                      Created {(() => {
+                        try {
+                          return format(new Date(todo.createdAt), 'MMM d, yyyy h:mm a')
+                        } catch (error) {
+                          return todo.createdAt
+                        }
+                      })()}
                     </p>
                   </div>
                 </div>
@@ -265,6 +271,7 @@ export default function Dashboard() {
                         variant="destructive" 
                         size="icon"
                         onClick={() => setTodoToDelete(todo._id)}
+                        aria-label="Delete todo"
                       >
                         <Trash2 className="h-4 w-4" />
                       </Button>
