@@ -1,7 +1,8 @@
-const { MongoClient, ObjectId } = require('mongodb');
+const { MongoClient } = require('mongodb');
 const { hash } = require('bcryptjs');
+require('dotenv').config();
 
-// Admin user credentials from the test file
+// Admin user credentials
 const ADMIN_USER = {
   email: 'admin00@email.com',
   password: 'admin00',
@@ -14,14 +15,15 @@ async function seed() {
   }
 
   try {
+    console.log('Connecting to database...');
     const client = await MongoClient.connect(process.env.MONGODB_URI);
     const db = client.db();
 
-    // Clear existing data
+    console.log('Clearing existing data...');
     await db.collection('users').deleteMany({});
     await db.collection('todos').deleteMany({});
 
-    // Create admin user
+    console.log('Creating admin user...');
     const hashedPassword = await hash(ADMIN_USER.password, 12);
     const user = await db.collection('users').insertOne({
       email: ADMIN_USER.email,
@@ -30,7 +32,7 @@ async function seed() {
       createdAt: new Date()
     });
 
-    // Create sample todos
+    console.log('Creating sample todos...');
     const todos = [
       {
         title: 'Welcome to your todo list!',
@@ -57,12 +59,13 @@ async function seed() {
 
     await db.collection('todos').insertMany(todos);
 
-    console.log('Database seeded successfully!');
-    console.log('Admin user created:');
+    console.log('\nDatabase seeded successfully!');
+    console.log('\nAdmin user created:');
     console.log(`Email: ${ADMIN_USER.email}`);
     console.log(`Password: ${ADMIN_USER.password}`);
 
     await client.close();
+    process.exit(0);
   } catch (error) {
     console.error('Error seeding database:', error);
     process.exit(1);
